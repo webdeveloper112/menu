@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input-elements</title>
+</head>
+<body style="color:black; font-size: 100%; background-color: rgb(193, 240, 238);"
+>
+    <form>
+        <fieldset>
+<legend>Personia</legend>
+       
+    <label for="fname">First name</label>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="ስም">ስም</label>
+    <input type="text" id="ስም" name="ስም"><br>
+    <label for="lname">Last name</label>
+    <input type="text" id="lname" name="lname" readonly><br>
+    <label for="ስም ኣቦ">ስም ኣቦ</label>
+    <input type="text" id="ስም ኣቦ" name="ስም ኣቦ"> <br>
+</fieldset>
+</form>
+<form>
+    
+    <h2> Choose your Prefered fruit</h2>
+    <form>
+        <input type="radio" id="orange" name="fav-food" value="orange">
+        <label for="orange">Orange</label><br>
+        <input type="radio" id="banana" name="fav-food" value="banana">
+        <label for="banana">Banana</label><br>
+        <input type="radio" id="apple" name="fav-food" value="apple">
+        <label for="apple">Apple</label><br>
+    </form>
+    <h3>ካብዞም ዝስዕቡ መኣዲታት ምረጹ</h3>
+    <form>
+        <input type="radio" id="ደርሆ" name="fav-dish" value="ደርሆ">
+        <label for="ደርሆ"> ደርሆ</label><br>
+        <input type="radio" id="ዝግኒ" name="fav-dish" value="ዝግኒ">
+        <label for="ዝግኒ">ዝግኒ</label><br>
+        <input type="radio" id="ቅልዋ" name="fav-dish" value="ቅልዋ">
+        <label for="ቅልዋ">ቅልዋ</label><br>
+    </form>
+    <h4>ተወሳኺ ናይ ጎኒ ጸብሒ</h4>
+    <h4> Side-dish</h4>
+<form>
+    <input type="radio" id="ኣልጫ" name="sd-dish" value="ኣልጫ">
+    <label for="ኣልጫ">ኣልጫ</label><br>
+    <input type="radio" id="ሳላጣ" name="sd-dish" value="ሳላጣ">
+    <label for="ሳላጣ">ሳላጣ</label><br>
+    
+    <label for="table-no" value="table-no">choose your table number</label>
+    <select id="table-no" name="table-no" size="2" multiple>
+        <option value="1">no-1</option>
+        <option value="2">no-2</option>
+        <option value="3">no-3</option>
+        <option value="3">no-4</option>
+        <option value="3">no-5</option>
+        <option value="3">no-6</option>
+    </select><br><br>
+    </form><br>
+
+    <h3> ዝስተ ነገራት ካብዚ ምረጹ</h3>
+
+    <form>
+    <input type="checkbox" id="ማይ" name="ዝስተ1" valu="ማይ">
+    <label for="ማይ">ፕላስቲክ-ማይ</label>
+    <br>
+    <input type="checkbox" id="ሜስ" name="ዝስተ2" valu="ሜስ">
+    <label for="ሜስ">ሜስ</label>
+    <br>
+    <input type="checkbox" id="ቢራ" name="ዝስተ3" valu="ቢራ">
+    <label for="ቢራ">ኣስመራ-ቢራ</label>
+    <br>
+    <input  id="ማይ-ጋዝ" name="ዝስተ5" valu="ማይ-ጋዝ">
+    <label for="ማይ-ጋዝ">ማይ-ጋዝ</label>
+    <br>
+    <input list="drinks" name="ለስላሳ">
+    <datalist id="drinks" name="ለስላሳ">
+        <option value="ኮካ">
+            <option value="ፋንታ">
+                <option value="ስፕራይት">
+                    <option value="7ኣፕ">
+    </datalist>
+    
+    <br>
+    
+    <br>
+
+<label for="points">Points:</label>
+<input type="number" id="points" name="points" step="3">
+<br>
+   
+    <textarea name="message" rows="10" cols="50">ዘተወሳኺ ጠለብ ወይ ውን ፍልይ ዝበለ ድለታት እንተለኩም ኣብዚ ቦታ ጽሓፉልና።</textarea><br>
+    <br>
+    <label for="date">Date of visit</label>
+    <input type="date" id="date" name="date of visit" value="date"><br><br>
+    <label for="email>">Enter your email here</label>
+    <input type="email" id="email" value="email"><br><br>
+    <label for="password">Enter password</label>
+    <input type="password" id="pwd" value="password"><br>
+    <br>
+<label for="phone">Enter Tell no here</label>
+<input type="tel" id="phone" name="phone" placeholder="07-12-12-12" pattern="[0-9]{2}-[0-9]{2}-[0-9]-{2}-[0-9]-{2}">
+<br>
+    <label for="file">choose file</label>
+    <input type="file" id="file" name="file"><br>
+
+
+    <input type="submit" value="submit"><br><br>
+
+    <button type="button" onclick="">click me</button><br><br>
+    
+</form>
+
+</form>
+</body>
+</html>
